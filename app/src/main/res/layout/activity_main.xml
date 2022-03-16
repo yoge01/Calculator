@@ -10,12 +10,11 @@
         android:layout_width="368dp"
         android:layout_height="495dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.036">
+        app:layout_constraintVertical_bias="0.526">
 
         <Button
             android:id="@+id/button1"
@@ -25,9 +24,10 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_marginTop="60dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:onClick="buttonClicked"
             android:text="1"
-            android:textSize="18sp"
-            android:onClick="buttonClicked"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button0"
@@ -36,9 +36,10 @@
             android:layout_below="@+id/button8"
             android:layout_toEndOf="@+id/button7"
             android:layout_toRightOf="@+id/button7"
+            android:onClick="buttonClicked"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:text="0"
-            android:textSize="18sp"
-            android:onClick="buttonClicked"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button9"
@@ -47,9 +48,10 @@
             android:layout_below="@+id/button6"
             android:layout_toEndOf="@+id/button5"
             android:layout_toRightOf="@+id/button5"
+            android:onClick="buttonClicked"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:text="9"
-            android:textSize="18sp"
-            android:onClick="buttonClicked"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button8"
@@ -58,9 +60,10 @@
             android:layout_below="@+id/button5"
             android:layout_toEndOf="@+id/button7"
             android:layout_toRightOf="@+id/button7"
+            android:onClick="buttonClicked"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:text="8"
-            android:textSize="18sp"
-            android:onClick="buttonClicked"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button7"
@@ -70,6 +73,7 @@
             android:layout_alignStart="@+id/button4"
             android:layout_alignLeft="@+id/button4"
             android:onClick="buttonClicked"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:text="7"
             android:textSize="18sp" />
 
@@ -81,9 +85,10 @@
             android:layout_alignBottom="@+id/button5"
             android:layout_toEndOf="@+id/button5"
             android:layout_toRightOf="@+id/button5"
+            android:onClick="buttonClicked"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:text="6"
-            android:textSize="18sp"
-            android:onClick="buttonClicked"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button5"
@@ -92,9 +97,10 @@
             android:layout_below="@+id/button2"
             android:layout_toEndOf="@+id/button4"
             android:layout_toRightOf="@+id/button4"
+            android:onClick="buttonClicked"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:text="5"
-            android:textSize="18sp"
-            android:onClick="buttonClicked"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button4"
@@ -103,9 +109,10 @@
             android:layout_below="@+id/button1"
             android:layout_alignStart="@+id/button1"
             android:layout_alignLeft="@+id/button1"
+            android:onClick="buttonClicked"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:text="4"
-            android:textSize="18sp"
-            android:onClick="buttonClicked"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button3"
@@ -115,9 +122,10 @@
             android:layout_alignBottom="@+id/button2"
             android:layout_toEndOf="@+id/button2"
             android:layout_toRightOf="@+id/button2"
+            android:onClick="buttonClicked"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:text="3"
-            android:textSize="18sp"
-            android:onClick="buttonClicked"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button2"
@@ -127,9 +135,10 @@
             android:layout_alignBottom="@+id/button1"
             android:layout_toEndOf="@+id/button1"
             android:layout_toRightOf="@+id/button1"
+            android:onClick="buttonClicked"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:text="2"
-            android:textSize="18sp"
-            android:onClick="buttonClicked"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/buttonadd"
@@ -139,10 +148,10 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:backgroundTint="@android:color/darker_gray"
+            android:onClick="buttonClicked"
             android:text="+"
             android:textColor="@android:color/background_light"
-            android:textSize="18sp"
-            android:onClick="buttonClicked"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/buttonsub"
@@ -152,10 +161,10 @@
             android:layout_alignStart="@+id/buttonadd"
             android:layout_alignLeft="@+id/buttonadd"
             android:backgroundTint="@android:color/darker_gray"
+            android:onClick="buttonClicked"
             android:text="-"
             android:textColor="@android:color/background_light"
-            android:textSize="18sp"
-            android:onClick="buttonClicked"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/buttonmul"
@@ -165,10 +174,10 @@
             android:layout_alignStart="@+id/buttonsub"
             android:layout_alignLeft="@+id/buttonsub"
             android:backgroundTint="@android:color/darker_gray"
+            android:onClick="buttonClicked"
             android:text="*"
             android:textColor="@android:color/background_light"
-            android:textSize="18sp"
-            android:onClick="buttonClicked"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/buttondiv"
@@ -178,10 +187,10 @@
             android:layout_alignStart="@+id/buttonmul"
             android:layout_alignLeft="@+id/buttonmul"
             android:backgroundTint="@android:color/darker_gray"
+            android:onClick="buttonClicked"
             android:text="/"
             android:textColor="@android:color/background_light"
-            android:textSize="18sp"
-            android:onClick="buttonClicked"/>
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/buttonbackspace"
@@ -197,7 +206,9 @@
             android:layout_marginEnd="13dp"
             android:layout_marginRight="107dp"
             android:layout_toStartOf="@+id/buttonc"
-            android:text="BackSpace" />
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="BackSpace"
+            android:textColor="@android:color/background_light" />
 
         <Button
             android:id="@+id/buttoneql"
@@ -209,7 +220,7 @@
             android:layout_marginTop="-47dp"
             android:layout_toEndOf="@+id/button0"
             android:layout_toRightOf="@+id/button0"
-            android:backgroundTint="@android:color/holo_green_light"
+            android:backgroundTint="@android:color/darker_gray"
             android:text="="
             android:textColor="@android:color/background_light"
             android:textSize="18sp" />
@@ -222,6 +233,7 @@
             android:layout_toStartOf="@+id/button8"
             android:layout_toLeftOf="@+id/button8"
             android:onClick="buttonClicked"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:text="."
             android:textSize="18sp" />
 
@@ -242,7 +254,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/edt1"
-            android:layout_marginTop="29dp"
+            android:layout_marginTop="4dp"
             android:textAlignment="textEnd"
             android:textSize="22dp" />
 
